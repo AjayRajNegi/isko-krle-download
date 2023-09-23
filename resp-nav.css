@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.resp-nav {
+  height: 70px;
+  display: none;
+}
+.resp-nav ul {
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+}
+.resp-nav a {
+  color: white;
+  text-decoration: none;
+}
+.resp-logo {
+  border-right: 1px solid #a19c9c;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  border-bottom: 1px solid #a19c9c;
+  z-index: 0;
+}
+
+.menu li {
+  font-size: 16px;
+  padding: 15px 5px;
+  background: none;
+  height: 100%;
+  z-index: 1;
+  margin: 0;
+}
+.menu li a {
+  display: block;
+  padding: 16px;
+  padding-top: 10px;
+}
+.resp-logo a {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0 10px;
+  background: none;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.toggle {
+  order: 1;
+}
+
+.item {
+  order: 2;
+  width: 100%;
+  text-align: start;
+  display: none;
+  background: black;
+}
+.item.active {
+  display: block;
+}
+
+.toggle {
+  cursor: pointer;
+  padding: 15px;
+}
+.bars {
+  background: white;
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  width: 18px;
+}
+.bars::before,
+.bars::after {
+  background: white;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: absolute;
+  width: 18px;
+}
+.bars::before {
+  top: 5px;
+}
+.bars::after {
+  top: -5px;
+}
+@media only screen and (max-width: 850px) {
+  .resp-nav {
+    display: block;
+  }
+}

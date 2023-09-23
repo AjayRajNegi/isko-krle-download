@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contact {
+  background-color: #f2f1f1;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+.heading-contact {
+  width: 100%;
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+.heading-contact p {
+  font-size: 15px;
+  font-weight: bold;
+  color: green;
+}
+.main-contact {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+.main-form {
+  width: 40%;
+  margin: auto;
+}
+#name,
+#email,
+#submit {
+  padding: 10px 0 10px 0;
+  margin: 5px 0 10px 0;
+  width: 100%;
+  border: none;
+}
+#message {
+  width: 100%;
+  margin: 5px 0 10px 0;
+  border: none;
+}
+#submit-message {
+  border: 1px solid black;
+  padding: 15px 25px;
+  font-size: 13px;
+  margin-top: 30px;
+  background: none;
+}
+#submit-message:hover {
+  transition: all 0.6s;
+  border: 1px solid green;
+  color: white;
+  background: green;
+}
+.side-info {
+  width: 40%;
+  margin: auto;
+  margin-top: 0;
+  text-align: right;
+}
+@media only screen and (max-width: 850px) {
+  .main-contact {
+    display: block;
+  }
+  .main-form {
+    width: 90%;
+    margin: auto;
+  }
+  .side-info {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+/* footer */
+.footer {
+  background: linear-gradient(rgba(18, 46, 54, 0.94), rgba(18, 46, 54, 0.94)),
+    url("Backgrounds/5fd930c0d3e37a7ecdf9d084_photo-1446575983799-470c50cfdd25-min.jpg");
+  background-size: cover;
+}
+.footer-heading {
+  text-align: center;
+  padding: 75px 0 0 0;
+}
+#last-button {
+  border: 1px solid gray;
+  padding: 20px 35px;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  margin-bottom: 30px;
+  color: white;
+}
+#last-button:hover {
+  transition: all 0.6s;
+  color: white;
+  background: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  opacity: 0.8;
+}
+#line {
+  opacity: 0.5;
+  width: 90%;
+  margin: auto;
+}
+.footer-footer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 50px 0 150px 0;
+}
+.footer-start {
+  color: white;
+  padding-right: 30%;
+}
+.footer-start a {
+  color: white;
+  text-decoration: none;
+}
+.footer-start a:hover {
+  color: green;
+  transition: 0.6s;
+}
+.end {
+  padding-left: 20%;
+}
+.end a {
+  color: white;
+  text-decoration: none;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -25%;
+}
+.small {
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  border: 1px solid #e8e5e5;
+  background: gray;
+}
+@media only screen and (max-width: 850px) {
+  .footer-footer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .footer-start {
+    margin-bottom: 50px;
+    padding: 0;
+  }
+  .end {
+    margin-top: 100px;
+    padding: 0;
+  }
+}
+/* Login form */
+.login {
+  background: #f0f0f0;
+  padding-bottom: 150px;
+}
+.login-header {
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+.login-form {
+  width: 30%;
+  margin: auto;
+}
+#login-name,
+#login-password {
+  padding-top: 15px;
+  width: 100%;
+  border: none;
+}
+.login-button {
+  padding-top: 50px;
+}
+.login-button button {
+  border: 1px solid black;
+  padding: 15px 25px;
+  font-size: 13px;
+}
+.login-button button:hover {
+  transition: all 0.6s;
+  color: white;
+  background: green;
+  border: 1px solid green;
+}
+.login-button a {
+  color: green;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+@media only screen and (max-width: 750px) {
+  .login-form {
+    width: 85%;
+    margin: auto;
+  }
+}
+/* SignUP form */
+.signUp {
+  background: #f0f0f0;
+  padding-bottom: 150px;
+}
+.signUp-header {
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+.signUp-form {
+  width: 30%;
+  margin: auto;
+}
+#signUp-email,
+#signUp-password,
+#signUp-number,
+#signUp-country,
+#signUp-name,
+#signUp-address {
+  padding-top: 15px;
+  width: 100%;
+  border: none;
+}
+.signUp-button {
+  padding-top: 50px;
+}
+.signUp-button button {
+  border: 1px solid black;
+  padding: 15px 25px;
+  font-size: 13px;
+}
+.signUp-button button:hover {
+  transition: all 0.6s;
+  color: white;
+  background: green;
+  border: 1px solid green;
+}
+.signUp-button a {
+  color: green;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+@media only screen and (max-width: 750px) {
+  .signUp-form {
+    width: 85%;
+    margin: auto;
+  }
+}

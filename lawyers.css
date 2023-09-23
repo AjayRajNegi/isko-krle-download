@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.lawyers {
+  width: 100%;
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.lawyers-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.lawyers-heading p {
+  color: #5aaa5a;
+  font-weight: bold;
+}
+.lawyers-main {
+  width: 100%;
+  display: flex;
+  height: 225px;
+  margin-top: 150px;
+}
+.eva {
+  width: 30%;
+  border: 1px solid #e8e5e5;
+  border-top: 1px solid #90ec90;
+  margin: 0 20px 0 50px;
+}
+.tommy {
+  width: 30%;
+  border: 1px solid #e8e5e5;
+  border-top: 1px solid #90ec90;
+}
+.maria {
+  width: 30%;
+  border: 1px solid #e8e5e5;
+  border-top: 1px solid #90ec90;
+  margin: 0 50px 0 20px;
+}
+.photo1 {
+  height: 150px;
+  width: 150px;
+  background: url("Lawyers/6009d7485cce9460f5c83039_Team-1.jpg");
+  background-size: cover;
+  position: relative;
+  left: 30%;
+  top: -30%;
+  border: 1px solid #90ec90;
+  border-radius: 100%;
+}
+.photo2 {
+  height: 150px;
+  width: 150px;
+  background: url("Lawyers/6009d7485cce9402b8c83034_Team-4.jpg");
+  background-size: cover;
+  position: relative;
+  left: 30%;
+  top: -30%;
+  border: 1px solid #90ec90;
+  border-radius: 100%;
+}
+.photo3 {
+  height: 150px;
+  width: 150px;
+  background: url("Lawyers/6009d7485cce94045fc83041_Team-2.jpg");
+  background-size: cover;
+  position: relative;
+  left: 30%;
+  top: -30%;
+  border: 1px solid #90ec90;
+  border-radius: 100%;
+}
+.sub-heading {
+  position: relative;
+  top: -25%;
+}
+.sub-heading p {
+  font-size: 13px;
+  padding: 18px 0 10px 0;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -25%;
+}
+.small {
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  border: 1px solid #e8e5e5;
+  background: gray;
+}
+.promote {
+  text-align: center;
+  border: 1px solid #e8e5e5;
+  padding: 15px 25px;
+  font-size: 13px;
+}
+.promote:hover {
+  transition: all 0.6s;
+  color: white;
+  background: #5aaa5a;
+  border: 0;
+}
+
+@media only screen and (max-width: 950px) {
+  .photo1 {
+    position: relative;
+    left: 23%;
+    top: -30%;
+  }
+  .photo2 {
+    position: relative;
+    left: 23%;
+    top: -30%;
+  }
+  .photo3 {
+    position: relative;
+    left: 23%;
+    top: -30%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .lawyers-main {
+    display: inline-block;
+  }
+  .eva {
+    width: 90%;
+    border: 1px solid #e8e5e5;
+    border-top: 1px solid #90ec90;
+    margin: 0 5% 125px 5%;
+  }
+  .tommy {
+    width: 90%;
+    border: 1px solid #e8e5e5;
+    border-top: 1px solid #90ec90;
+    margin: 0 5% 125px 5%;
+  }
+  .maria {
+    width: 90%;
+    border: 1px solid #e8e5e5;
+    border-top: 1px solid #90ec90;
+    margin: 0 5% 125px 5%;
+  }
+  .photo1 {
+    position: relative;
+    left: 39%;
+    top: -70px;
+  }
+  .photo2 {
+    position: relative;
+    left: 39%;
+    top: -70px;
+  }
+  .photo3 {
+    position: relative;
+    left: 39%;
+    top: -70px;
+  }
+  .sub-heading {
+    position: relative;
+    top: -50px;
+  }
+  .icons {
+    position: relative;
+    top: -50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .photo1 {
+    position: relative;
+    left: 34%;
+  }
+  .photo2 {
+    position: relative;
+    left: 34%;
+  }
+  .photo3 {
+    position: relative;
+    left: 34%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .photo1 {
+    position: relative;
+    left: 27%;
+  }
+  .photo2 {
+    position: relative;
+    left: 27%;
+  }
+  .photo3 {
+    position: relative;
+    left: 27%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .photo1 {
+    position: relative;
+    left: 22%;
+  }
+  .photo2 {
+    position: relative;
+    left: 22%;
+  }
+  .photo3 {
+    position: relative;
+    left: 22%;
+  }
+}
+
+.fuck {
+  background: gray;
+  height: 100vh;
+  width: 100px;
+}
+
+.eva:hover {
+  transition: 0.5s;
+  transform: translate(0px, -10px);
+}
+.tommy:hover {
+  transition: 0.5s;
+  transform: translate(0px, -10px);
+}
+.maria:hover {
+  transition: 0.5s;
+  transform: translate(0px, -10px);
+}
